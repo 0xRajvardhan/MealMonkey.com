@@ -65,3 +65,15 @@ section nav ul li a:hover::after {
 section nav ul li a:hover {
     color: #fac031;
 }
+
+section nav .icon i {
+    font-size: 18px;
+    color: #000;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+section nav .icon i:hover {
+    color: #fac031;
+}
