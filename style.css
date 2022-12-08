@@ -778,3 +778,30 @@ footer .footer_main .footer_tag i {
 footer .footer_main .footer_tag i:hover {
     color: #fac031;
 }
+
+footer .end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+footer .end span {
+    color: #6c14d0;
+    margin-left: 10px;
+    font-family: mv boli;
+}
+
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 15px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #fac031;
+    border-radius: 15px;
+}
