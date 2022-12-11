@@ -840,8 +840,3 @@ footer .end span {
     }
 }
 
-@media(max-width: 800px),(max-height: 1100px) {
-    html {
-        font-size: 30%;
-    }
-}

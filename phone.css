@@ -1,0 +1,64 @@
+/* Home Section  */
+
+section .main {
+    top: 10rem;
+}
+
+section .main .main_text h1 {
+    font-size: 5rem;
+    left: -2rem;
+}
+
+section .main .main_text h1 span {
+    margin-left: 1.1rem;
+    font-size: 6rem;
+}
+
+section .main .main_image img {
+    width: 50rem;
+    left: 12rem;
+}
+
+section .main_btn {
+    bottom: 8rem;
+    padding: 1.1rem 2.3rem;
+}
+
+/* About  */
+
+.about {
+    padding: 0;
+    height: 70vh;
+}
+
+/* Menu Section  */
+
+
+
+
+/* Gallery Section  */
+
+
+
+
+/* Review Section  */
+
+
+
+
+/* Order Section  */
+
+
+
+
+/* Team Section  */
+
+.team {
+    width: 102%;
+}
+
+/* Footer  */
+
+footer {
+    width: 102%;
+}
