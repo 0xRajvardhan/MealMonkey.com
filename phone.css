@@ -1,13 +1,143 @@
 /* Home Section  */
+section nav {
+    height: 12rem;
+}
+
+section nav .logo {
+    position: absolute;
+    margin: auto;
+    top: 0;
+}
+
+section nav ul li {
+    position: relative;
+    margin: 0 3rem;
+    margin-top: 7rem;
+    left: 17rem;
+}
+
+section .main {
+    top: 16rem;
+    left: 22rem;
+}
+
+section .main .main_image img {
+    width: 50rem;
+    left: 20rem;
+}
+
+section p {
+    left: 27.3rem;
+    bottom: 0rem;
+}
+
+section .main_btn {
+    bottom: -5rem;
+    left: 27rem;
+}
 
 /* About  */
 
+.about {
+    margin-top: 12rem;
+    margin-left: 16rem;
+    height: 58vh;
+}
+
+.about .about_main .about_text p {
+    width: 55rem;
+    margin-right: -18rem;
+}
+
+.about .about_main .image img {
+    width: 70rem;
+}
+
 /* Menu Section  */
+.menu h1 {
+    margin-left: 40rem;
+}
+
+.menu .menu_box {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.menu .menu_box .menu_card {
+    width: 50.5rem;
+    height: 52rem;
+}
+
+.menu .menu_box .menu_card .menu_info p {
+    margin-top: 2.8rem;
+}
+
+.menu .menu_box .menu_card .menu_info h2 {
+    margin-top: 3rem;
+}
+
+.menu .menu_box .menu_card .menu_info .menu_btn {
+    margin: 10px 20rem;
+}
+
+.menu .menu_box .menu_card .menu_image {
+    width: 46rem;
+    height: 26.5rem
+}
+
 
 /* Gallery Section  */
 
+.gallery h1 {
+    margin-left: 40rem;
+}
+
+.gallery .gallery_image_box {
+    width: 120%;
+    margin: 5rem 10rem;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
 /* Review Section  */
 
+.review {
+    height: 90vh;
+}
+
+.review h1 {
+    margin-left: 26rem;
+}
+
+.review .review_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.review .review_box .review_card {
+    width: 70rem;
+    height: 40rem;
+}
+
 /* Order Section  */
+.order {
+    width: 130%;
+}
+
 
 /* Team Section  */
+
+.team {
+    width: 150%;
+    height: 100vh;
+}
+
+.team .team_box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10rem;
+}
+
+/* Footer  */
+footer {
+    width: 135%;
+}
